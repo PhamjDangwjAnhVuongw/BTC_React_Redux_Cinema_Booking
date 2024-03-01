@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createStore } from "redux";
-import BookingReducer from "./reducer/reducer";
+import BookingReducer from "./reducers/reducer";
 import { Provider } from "react-redux";
 
 let store = createStore(

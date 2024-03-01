@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { datGheAction } from "../reducer/action";
+import { datGheAction } from "../reducers/action";
 
 class HangGhe extends Component {
   renderGhe = () => {

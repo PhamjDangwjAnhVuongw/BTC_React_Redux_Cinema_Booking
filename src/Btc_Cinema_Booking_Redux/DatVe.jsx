@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from "react";
-// import "./main.css"; xem lại
-import "./App.css";
+import "./style.css";
 import ThongTinDatVe from "./ThongTinDatVe";
-import danhSachGheData from "../Data/danhSachGhe.json";
+import danhSachGheData from "../Danhsachghe/danhSachGhe.json";
 import HangGhe from "./HangGhe";
 
 export default class DatVe extends Component {

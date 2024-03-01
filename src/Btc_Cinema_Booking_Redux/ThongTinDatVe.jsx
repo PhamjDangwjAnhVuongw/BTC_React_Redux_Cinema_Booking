@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { huyGheAction } from "../reducer/action";
+import { huyGheAction } from "../reducers/action";
 
 class ThongTinDatVe extends Component {
   render() {
