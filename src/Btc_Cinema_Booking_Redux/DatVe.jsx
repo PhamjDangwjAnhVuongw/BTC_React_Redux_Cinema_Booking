@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import "./style.css";
+import "../App.css";
 import ThongTinDatVe from "./ThongTinDatVe";
 import danhSachGheData from "../Danhsachghe/danhSachGhe.json";
 import HangGhe from "./HangGhe";
