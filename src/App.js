@@ -1,4 +1,4 @@
-import "./App.css";
+import "./style.css";
 import DatVe from "./Btc_Cinema_Booking_Redux/DatVe";
 
 function App() {
