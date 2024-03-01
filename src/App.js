@@ -1,10 +1,10 @@
 import "./App.css";
-import BookingTicket from "./BookingTicket/BookingTicket";
+import DatVe from "./Btc_Cinema_Booking_Redux/DatVe";
 
 function App() {
   return (
     <div>
-      <BookingTicket />
+      <DatVe />
     </div>
   );
 }

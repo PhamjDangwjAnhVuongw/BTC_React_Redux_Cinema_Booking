@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react";
 // import "./main.css"; xem lại
 import "./App.css";
-import ThongTinDatGhe from "./ThongTinDatGhe";
+import ThongTinDatVe from "./ThongTinDatVe";
 import danhSachGheData from "../Data/danhSachGhe.json";
 import HangGhe from "./HangGhe";
 
-export default class BookingTicket extends Component {
+export default class DatVe extends Component {
   renderHangGhe = () => {
     return danhSachGheData.map((hangGhe, index) => {
       return (
@@ -23,7 +23,7 @@ export default class BookingTicket extends Component {
           position: "fixed",
           width: "100%",
           height: "100%",
-          backgroundImage: "url('./img/BookingTicket/bgmovie.jpg')",
+          backgroundImage: "url('./img/DatVe/bgmovie.jpg')",
           backgroundSize: "100%",
         }}
       >
@@ -63,7 +63,7 @@ export default class BookingTicket extends Component {
                 <h1 className="text-success mt-4" style={{ fontSize: "30px" }}>
                   DANH SÁCH GHẾ BẠN CHỌN
                 </h1>
-                <ThongTinDatGhe />
+                <ThongTinDatVe />
               </div>
             </div>
           </div>
